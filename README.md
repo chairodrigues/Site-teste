@@ -56,6 +56,5 @@
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chairodrigues)
 
 
-![Typing SVG](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Chai&reversal=false&section=footer&fontColor=5858FA)
 
 <div align="center">Feito com 💙 por <a href="https://github.com/chairodrigues">Chai</a>.</div>
