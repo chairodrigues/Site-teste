@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio</title>
+</head>
+<body>
+    <form 
+    onsubmit=""
+    method="get">
+        <h3>Voce selecionou : Pizza 4 queijos</h3>
+        <p>Quais opcionais deseja?</p>
+        <input type="checkbox" name="opcional[]" value="queijoCheddar"> Cheddar <br>
+        <input type="checkbox" name="opcional[]" value="cebola">Cebola <br>
+        <input type="checkbox" name="opcional[]" value="doritos" > Doritos<br>
+        <p>Borda recheada?</p>
+        <input type="radio" name="borda" value="sim"> Sim <br>
+        <input type="radio" name="borda" value="nao"> Nao <br>
+        <p>Bebida</p>
+        <input type="radio" name="bebida" value="sucoLaranja"> Suco de Laranja <br>
+        <input type="radio" name="bebida" value="SucoUva"> Suco de Uva <br>
+        <input type="radio" name="bebida" value="coca"> Coca-cola  <br>
+        <input type="radio" name="bebida" value="pepsi"> Pepsi <br>
+        <input type="radio" name="bebida" value="agua"> Agua <br>
+        <input type="radio" name="bebida" value="nenhum"> Nenhum <br> 
+
+        <button type="submit">
+            Enviar pedido
+        </button>
+
+        <select name="role" id="" multiple><br>
+            <option value="selecione">Selecione opcao de entrega</option>
+            <option value="casa">enviar em casa</option>
+            <option value="loja">Buscar na loja</option>
+        </select>
+
+        <textarea name="text" rows="2" id="">campo</textarea><br>
+        <button type="button" onmouseover="alert('Passei aqui')">passei</button>
+        <button type="button" onmouseleave="alert('sai daqui')">sai</button>
+        <button type="button" onmouseover="alert('em cima')"> em cima</button>
+        
+        <button type="reset">Limpar</button>
+
+        <button type="menu"><input type="teste"> <input type="teste"></button>
+    </form>
+
+  
+<footer>
+    <a href="index.html">inicio</a>
+</footer>
+</body>
+</html>
